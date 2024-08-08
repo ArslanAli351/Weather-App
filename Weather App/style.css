@@ -1,0 +1,54 @@
+.head {
+    background-image: url(img/gif.webp);
+    background-repeat: no-repeat;
+    background-size: 1200px 650px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.handler {
+
+    width: 28%;
+    background-color: #b9e4fa99;
+    border-radius: 50px;
+    height: 200px;
+}
+
+.Massage {
+    z-index: -1;
+    border: 1px solid red;
+
+    margin-top: 150px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: #86d0f2;
+
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    .head {
+        background-size: 1200px 470px;
+        height: 470px;
+
+    }
+
+    .handler {
+        width: 70%;
+    }
+
+}
